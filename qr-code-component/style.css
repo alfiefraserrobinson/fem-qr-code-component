@@ -68,9 +68,11 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   width: 1440px;
   height: 800px;
+  padding: 152px 0px 151px 0px;
   background: var(--lightgrey);
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -79,4 +81,54 @@ body {
   background: var(--white);
   border-radius: 20px;
   box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.qr-container {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+  background: #2C7DFA;
+  flex-shrink: 0;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.qr-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.heading-container {
+  width: 288px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+h1 {
+  color: var(--darkblue);
+  font-family: var(--ff);
+  font-size: var(--fs-900);
+  font-style: normal;
+  font-weight: var(--fw-bold);
+  line-height: normal;
+  text-align: center;
+}
+
+.para-container {
+  width: 256px;
+  margin: auto;
+  margin-top: 16px;
+}
+
+.para-container p {
+  color: var(--grayblue);
+  font-family: var(--ff);
+  font-size: var(--fs-400);
+  font-style: normal;
+  font-weight: var(--fw-regular);
+  line-height: normal;
+  letter-spacing: 0.188px;
+  text-align: center;
 }
