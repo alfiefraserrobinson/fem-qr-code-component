@@ -2,10 +2,18 @@
   
   --white: hsl(0, 0%, 100%);
   --lightgrey: hsl(212, 45%, 89%);
-  --grayblue: ;hsl(220, 15%, 55%)
+  --grayblue: hsl(220, 15%, 55%);
   --darkblue: hsl(218, 44%, 22%);
 
-  --
+  --ff: "Outfit", sans-serif;
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  --fs-400: 0.938rem;
+  --fs-900: 1.375rem;
+
+
 }
 
 
